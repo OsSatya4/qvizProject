@@ -5,6 +5,7 @@ module org.nye.qvizmainproject {
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
     opens org.nye.qvizmainproject to javafx.fxml;
     exports org.nye.qvizmainproject;
